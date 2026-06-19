@@ -1,6 +1,7 @@
 
 import { Hero } from './Pages/Home/Hero';
 import {Skills} from './Pages/Home/Skills';
+import {AboutMe} from './Pages/Home/AboutMe';
 import './App.css'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <Hero />
       <Skills />
+      <AboutMe />
     </>
 
   )
