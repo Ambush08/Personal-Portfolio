@@ -40,7 +40,7 @@ export function Skills() {
             <div className="skill-card-info">
               <h3 className="skill-name">Back-End</h3>
               <p className="skill-description">
-                Develop robust server-side applications, REST APIs, database integrations, and secure authentication systems for modern web applications.
+                Develop robust server-side applications, REST APIs, database integrations, and secure systems for modern web applications.
               </p>
             </div>
             <div className="skill-tech">
@@ -90,7 +90,7 @@ export function Skills() {
             <div className="skill-card-info">
               <h3 className="skill-name">Wordpress</h3>
               <p className="skill-description">
-                Build responsive, SEO-optimized WordPress websites with custom themes, plugins, payment integration and performance optimization.
+                Build responsive, SEO-optimized WordPress websites with custom themes, plugins and performance optimization.
               </p>
             </div>
             <div className="skill-tech">

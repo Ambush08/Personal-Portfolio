@@ -18,7 +18,7 @@ body{
 }
 
 a{
-    color: var(--primary);
+    color: var(--darkblue);
     text-decoration: none;
 }
 
@@ -45,6 +45,20 @@ li{
 
 .btn-primary{
     background: var(--primary);
+    color: var(--white);
+}
+
+.btn-secondary{
+    background: var(--white);
+    color: var(--primary);
+    border: 1px solid var(--primary);
+}
+
+.btn-secondary:hover{
+    background: var(--primary);
+}
+
+.btn-secondary a:hover{
     color: var(--white);
 }
 
