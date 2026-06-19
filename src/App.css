@@ -54,6 +54,17 @@ li{
     border: 1px solid var(--primary);
 }
 
+.btn-github{
+    background: var(--github);
+    color: var(--white);
+}
+
+.btn-github:hover{
+    background: var(--white);
+    color: var(--github);
+    border: 1px solid var(--github);
+}
+
 .btn-secondary:hover{
     background: var(--primary);
 }
@@ -69,7 +80,7 @@ li{
 }
 
 p{
-    font-size: 1.5rem;
+    font-size: 1rem;
     line-height: 1.5;
     color: var(--darkblue);
 }
