@@ -52,7 +52,8 @@
 
 .hero-info{
     text-align: center;
-    font-size: 1.25rem;
+    font-size: 1rem;
+    opacity: .75;
 }
 
 .hero-image{
@@ -76,7 +77,7 @@
     }
 
     .hero-info{
-        font-size: 1.35rem;
+        font-size: 1rem;
     }
 
     .btn-primary{
@@ -86,7 +87,7 @@
 
 @media(min-width:768px){
     .container{
-        max-width: 1023px;
+        max-width: 768px;
     }
 
     .hero-intro{
@@ -98,13 +99,13 @@
     }
 
     .hero-info{
-        font-size: 1.45rem;
+        font-size: 1.25rem;
     }
 }
 
 @media(min-width:1024px){
     .container{
-        max-width: 1443px;
+        max-width: 1024px;
         flex-direction: row;
     }
 
@@ -128,7 +129,7 @@
 
     .hero-info{
     text-align: left;
-    font-size: 1.45rem;
+    font-size: 1.25rem;
     }
 }
 
@@ -146,6 +147,6 @@
     }
 
     .hero-info{
-        font-size: 1.45rem;
+        font-size: 1.25rem;
     }
 }

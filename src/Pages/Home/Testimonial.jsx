@@ -38,7 +38,7 @@ export function Testimonial() {
             </div>
             <div className="client-profile">
               <div className="client-image">
-                <img src="./img/avatar-image.png" />
+                <img src="./img/avatar-image-1.png" />
               </div>
               <div className="client-details">
                 <p className="client-name">Daniel Russel</p>
