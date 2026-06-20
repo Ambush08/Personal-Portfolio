@@ -5,6 +5,7 @@ import {AboutMe} from './Pages/Home/AboutMe';
 import {Projects} from './Pages/Home/Projects';
 import './App.css'
 import { Testimonial } from './Pages/Home/Testimonial';
+import {Contacts} from "./Pages/Home/Contacts";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <AboutMe />
       <Projects />
       <Testimonial />
+      <Contacts />
     </>
 
   )
