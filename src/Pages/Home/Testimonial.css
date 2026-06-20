@@ -73,6 +73,7 @@
 
 .rating-list li i:hover{
     color: var(--primary);
+    cursor: pointer;
 }
 
 .client-remarks{
@@ -102,6 +103,7 @@
 
 .client-company:hover{
     color: var(--primary);
+    cursor: pointer;
 }
 
 .client-company{

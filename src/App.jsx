@@ -6,6 +6,7 @@ import {Projects} from './Pages/Home/Projects';
 import './App.css'
 import { Testimonial } from './Pages/Home/Testimonial';
 import {Contacts} from "./Pages/Home/Contacts";
+import {Footer} from "./Pages/Home/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Projects />
       <Testimonial />
       <Contacts />
+      <Footer />
     </>
 
   )

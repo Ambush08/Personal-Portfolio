@@ -37,6 +37,7 @@ i{
 
 i:hover{
     color: var(--primary);
+    cursor: pointer;
 }
 
 li{
@@ -63,20 +64,24 @@ li{
     background: var(--white);
     color: var(--github);
     border: 1px solid var(--github);
+    cursor: pointer;
 }
 
 .btn-secondary:hover{
     background: var(--primary);
+    cursor: pointer;
 }
 
 .btn-secondary a:hover{
     color: var(--white);
+    cursor: pointer;
 }
 
 .btn-primary:hover{
     background: var(--white);
     color: var(--primary);
     border: 1px solid var(--primary);
+    cursor: pointer;
 }
 
 p{
@@ -109,4 +114,13 @@ img{
     overflow-clip-margin: content-box;
     overflow: clip;
     width: 100%;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.logo-highlight{
+    color: var(--primary);
 }
