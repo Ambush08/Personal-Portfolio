@@ -13,33 +13,34 @@ export function Contacts () {
                 <div className="contact-form">
                     <form action="" className="contact-me-form">
                         <div className="form-field">
-                            <label htmlFor="">First Name</label>
-                            <input type="text" placeholder="Enter your first name..." />
+                            <label htmlFor="name">First Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your first name..." required />
                         </div>
 
                         <div className="form-field">
-                            <label htmlFor="">Last Name</label>
-                            <input type="text" placeholder="Enter your last name..." required />
+                            <label htmlFor="name">Last Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your last name..." required />
                         </div>
 
                         <div className="form-field">
-                            <label htmlFor="">Email</label>
-                            <input type="email" placeholder="Enter your email..." required />
+                            <label htmlFor="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email..." required />
                         </div>
 
                         <div className="form-field">
-                            <label htmlFor="">Phone Number</label>
-                            <input type="number" placeholder="Enter your phone number..." required />
+                            <label htmlFor="number">Phone Number</label>
+                            <input type="number" id="number" name="number" placeholder="Enter your phone number..." required />
                         </div>
 
                         <div className="form-field">
-                            <label htmlFor="">Message</label>
-                            <textarea name="" id="" placeholder="Type your message here..." required ></textarea>
+                            <label htmlFor="message">Message</label>
+                            <textarea name="" id="message" placeholder="Type your message here..." required ></textarea>
                         </div>
+                        <button className="btn btn-primary">
+                            Submit
+                        </button>
                     </form>
-                    <button className="btn btn-primary">
-                        Submit
-                    </button>
+                    
                 </div>
             </div>
         </section>

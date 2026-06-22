@@ -133,9 +133,9 @@
     }
 }
 
-@media(min-width: 1144px){
+@media(min-width: 1444px){
     .container{
-        width: 100%;
+        max-width: 1444px;
     }
 
     .hero-intro{

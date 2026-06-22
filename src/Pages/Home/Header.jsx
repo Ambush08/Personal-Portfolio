@@ -1,14 +1,7 @@
-export function Header() {
-    return(
-        <header className='header'>
-            <div className="logo">
-                <img src=''/>
-                <h2>Ambush.Dev</h2>
-            </div>
+import './Header.css';
 
-            <div className="menu-bar">
-                
-            </div>
-        </header>
-    )
+export function Header() {
+  return (
+    
+  );
 }
