@@ -39,7 +39,7 @@ export function Footer () {
                             </a>
                         </li>
                         <li className="footer-social-link">
-                            <a href="">
+                            <a href="https://www.linkedin.com/in/warren-ambuga-0718693a3/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bbs5ip%2BkVSs2o8b58rt%2Fm8w%3D%3D">
                                 <i class="fa-brands fa-linkedin"></i>
                             </a>
                         </li>
