@@ -24,7 +24,7 @@ export function Projects() {
                 </p>
               </div>
               <div className="github-link">
-                <a href="#">View My GitHub</a>
+                <a href="https://github.com/Ambush08" target="_blank">View My GitHub</a>
               </div>
             </div>
 
@@ -41,7 +41,7 @@ export function Projects() {
                 </p>
               </div>
               <div className="github-link">
-                <a href="#">View My GitHub</a>
+                <a href="https://github.com/Ambush08" target="_blank">View My GitHub</a>
               </div>
             </div>
 
@@ -58,13 +58,13 @@ export function Projects() {
                 </p>
               </div>
               <div className="github-link">
-                <a href="#">View My GitHub</a>
+                <a href="https://github.com/Ambush08" target="_blank">View My GitHub</a>
               </div>
             </div>
           </div>
-            <button className="btn btn-github">
+            <a href="https://github.com/Ambush08" target="_blank" className="btn btn-github">
                 Visit my Github
-            </button>
+            </a>
         </div>
       </div>
     </section>

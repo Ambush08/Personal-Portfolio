@@ -19,9 +19,9 @@ export function AboutMe () {
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque repellendus earum inventore quidem voluptas magni nostrum, voluptatum in perferendis dolores cum ut facere non? Debitis minima ipsam laudantium quasi non?</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, amet quidem. Architecto accusantium maiores recusandae.</p>
                     </div>
-                    <button className='btn btn-primary'>
+                    <a href="https://drive.google.com/file/d/1GO9KtS4CauQPBIlH7PLJl7AAqvdGzXEa/view?usp=drive_link" target="_blank" className='btn btn-primary'>
                         Download CV
-                    </button>
+                    </a>
                 </div>
                 
             </div>

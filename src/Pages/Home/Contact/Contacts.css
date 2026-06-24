@@ -9,7 +9,7 @@
 }
 
 .contacts{
-    padding: 3em;
+    padding: 7em 0;
 }
 
 .contcts-container{
@@ -82,6 +82,11 @@
 
 .form-field textarea:focus{
     outline: none;
+}
+
+.contact-button{
+    margin-top: 1em;
+    padding: 1em 2em;
 }
 
 @media(min-width: 768px){

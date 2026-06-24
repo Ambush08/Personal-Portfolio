@@ -1,3 +1,4 @@
+import {Link} from 'react-scroll';
 import './Home.css';
 export function Hero (){
     return(
@@ -11,9 +12,14 @@ export function Hero (){
                             Building scalable, user-focused web applications with modern technologies.
                             <br />Helping businesses succeed through innovative full-stack web development solutions.
                         </p>
-                            <button className="btn btn-primary">
-                                Get in Touch
-                            </button>
+                            <Link 
+                                to="contact" 
+                                className="btn btn-primary"
+                                spy={true}
+                                smooth={true}
+                                duration={500}>
+                                    Get in Touch
+                            </Link>
                     </div>
 
                     <div className="hero-image">

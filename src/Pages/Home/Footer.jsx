@@ -1,3 +1,4 @@
+import {Link} from 'react-scroll';
 import './Footer.css';
 
 export function Footer () {
@@ -5,7 +6,13 @@ export function Footer () {
         <footer className="footer-section">
             <div className="container footer-container">
                 <div className="logo footer-logo">
-                    Ambush.<span className="logo-highlight">Dev</span>
+                    <Link 
+                        to="hero"
+                        smooth={true}
+                        spy={true}
+                        duration={1000}>
+                            Ambush.<span className="logo-highlight">Dev</span>
+                    </Link>
                 </div>
 
                 <div className="footer-nav">
@@ -22,12 +29,12 @@ export function Footer () {
                 <div className="footer-socials">
                     <ul className="footer-social-list">
                         <li className="footer-social-link">
-                            <a href="">
+                            <a href="https://x.com/cloutchaser08" target="_blank">
                                 <i class="fa-brands fa-x-twitter"></i>
                             </a>
                         </li>
                         <li className="footer-social-link">
-                            <a href="">
+                            <a href="https://github.com/Ambush08" target="_blank">
                                 <i class="fa-brands fa-github"></i>
                             </a>
                         </li>

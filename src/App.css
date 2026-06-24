@@ -69,10 +69,6 @@ li{
 
 .btn-secondary:hover{
     background: var(--primary);
-    cursor: pointer;
-}
-
-.btn-secondary a:hover{
     color: var(--white);
     cursor: pointer;
 }
