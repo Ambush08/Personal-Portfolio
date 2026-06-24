@@ -33,8 +33,12 @@ export function Header () {
         <header className="header-nav">
             <nav className={`navbar ${navActive? 'active' : ''}`}>
                 <div className="logo">
-                    <Link to="hero">
-                        Ambush.<span className="logo-highlight">Dev</span>
+                    <Link 
+                        to="hero"
+                        smooth={true}
+                        spy={true}
+                        duration={1000}>
+                            Ambush.<span className="logo-highlight">Dev</span>
                     </Link>
                 </div>
 
