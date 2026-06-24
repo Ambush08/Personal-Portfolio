@@ -44,7 +44,7 @@ export function Footer () {
                             </a>
                         </li>
                         <li className="footer-social-link">
-                            <a href="">
+                            <a href="https://www.instagram.com/ambushwarren/" target="_blank">
                                 <i class="fa-brands fa-instagram"></i>
                             </a>
                         </li>
